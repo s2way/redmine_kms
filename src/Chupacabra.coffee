@@ -1,9 +1,10 @@
-redmine = require 'redmine'
+Redmine = require 'node-redmine'
+config = require './config'
 
 class Chupacabra
 
     constructor: ->
-        console.log 'énois'
-
-
+        red = new Redmine config.host, apiKey: config.key
+        red.projects {}, (err, data) ->
+            console.log err, data
 module.exports = new Chupacabra

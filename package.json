@@ -28,6 +28,7 @@
     "mocha": "^2.2.4"
   },
   "dependencies": {
+    "node-redmine": "^0.1.5",
     "redmine": "^0.2.3"
   }
 }
