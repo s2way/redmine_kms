@@ -28,7 +28,12 @@
     "mocha": "^2.2.4"
   },
   "dependencies": {
+    "async": "^2.1.4",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
     "node-redmine": "^0.1.5",
-    "redmine": "^0.2.3"
+    "redmine": "^0.2.3",
+    "beetles": "git://github.com/moharu/beetles.git",
+    "elasticsearch-connector": "git://github.com/s2way/elasticsearch-connector.git"
   }
 }
